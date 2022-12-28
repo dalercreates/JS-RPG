@@ -53,8 +53,26 @@ body.lock {
 }
 
 #controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
   border: 1px black solid;
   padding: 5px;
+}
+#controls button {
+  border: 1px solid rgb(255, 255, 255);
+  width: 150px;
+  height: 50px;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+#controls button:hover {
+  background-color: darkblue;
+  color: white;
 }
 
 #stats {
