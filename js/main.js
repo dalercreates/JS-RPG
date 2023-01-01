@@ -30,6 +30,10 @@ const weapons =  [
         power: 30
     },
     {
+        name: "knife", 
+        power: 45
+    },
+    {
         name: "claw hammer",
         power: 50
     }, 
