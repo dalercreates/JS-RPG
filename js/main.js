@@ -162,7 +162,7 @@ function buyWeapon() {
     } else {
         text.innerText = "You already have the most powerful Weapon!";
         button2.innerText = "Sell Weapon for 15 gold";
-        button2.onclick = sellWeapon; // нужно доделать!
+        button2.onclick = sellWeapon; 
     }
 }
 
@@ -252,3 +252,4 @@ function restart() {
     xpText.innerText = xp;
     goTown();
 }
+
